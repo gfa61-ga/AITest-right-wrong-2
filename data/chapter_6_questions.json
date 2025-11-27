@@ -1,0 +1,112 @@
+[
+  {
+    "question": "Στα Convolutional Neural Networks (CNNs), τα 'Pooling Layers' χρησιμοποιούνται για την αύξηση των διαστάσεων της εικόνας ώστε να φαίνονται περισσότερες λεπτομέρειες.",
+    "answer": false,
+    "chapter_number": 6,
+    "right_answer": "Τα Pooling Layers (π.χ. Max Pooling) χρησιμοποιούνται για τη μείωση των διαστάσεων (downsampling) και του υπολογιστικού κόστους."
+  },
+  {
+    "question": "Η συνάρτηση κόστους 'Mean Squared Error' (MSE) χρησιμοποιείται κυρίως σε προβλήματα ταξινόμησης (classification).",
+    "answer": false,
+    "chapter_number": 6,
+    "right_answer": "Το MSE χρησιμοποιείται κυρίως σε προβλήματα παλινδρόμησης (regression). Για ταξινόμηση χρησιμοποιείται συνήθως το Cross-Entropy Loss."
+  },
+  {
+    "question": "Οι Autoencoders είναι νευρωνικά δίκτυα που μαθαίνουν να συμπιέζουν τα δεδομένα εισόδου (encoder) και στη συνέχεια να τα ανακατασκευάζουν (decoder).",
+    "answer": true,
+    "chapter_number": 6
+  },
+  {
+    "question": "Η τεχνική 'Data Augmentation' χρησιμοποιείται για τη μείωση του μεγέθους του συνόλου δεδομένων ώστε η εκπαίδευση να είναι πιο γρήγορη.",
+    "answer": false,
+    "chapter_number": 6,
+    "right_answer": "Το Data Augmentation χρησιμοποιείται για την τεχνητή αύξηση του μεγέθους του συνόλου δεδομένων (π.χ. περιστρέφοντας εικόνες) για την αποφυγή overfitting."
+  },
+  {
+    "question": "Το 'Forward Propagation' είναι η διαδικασία κατά την οποία το δίκτυο διορθώνει τα βάρη του για να μειώσει το σφάλμα.",
+    "answer": false,
+    "chapter_number": 6,
+    "right_answer": "Το Forward Propagation είναι η διαδικασία υπολογισμού της εξόδου από την είσοδο. Η διόρθωση των βαρών γίνεται κατά το Backpropagation."
+  },
+  {
+    "question": "Τα 'Weights' (Βάρη) σε ένα νευρωνικό δίκτυο είναι σταθερές τιμές που ορίζονται από τον προγραμματιστή και δεν αλλάζουν ποτέ.",
+    "answer": false,
+    "chapter_number": 6,
+    "right_answer": "Τα Βάρη είναι παράμετροι που μαθαίνονται και προσαρμόζονται συνεχώς κατά τη διάρκεια της εκπαίδευσης για να ελαχιστοποιηθεί το σφάλμα."
+  },
+  {
+    "question": "Οι 'Transformers' χρησιμοποιούν τον μηχανισμό 'Self-Attention' για να επεξεργάζονται ολόκληρες ακολουθίες δεδομένων ταυτόχρονα.",
+    "answer": true,
+    "chapter_number": 6
+  },
+  {
+    "question": "Ο 'Adam' optimizer είναι ένας παλαιότερος αλγόριθμος που έχει αντικατασταθεί πλήρως από τον απλό Gradient Descent λόγω της πολυπλοκότητάς του.",
+    "answer": false,
+    "chapter_number": 6,
+    "right_answer": "Ο Adam είναι ένας από τους πιο δημοφιλείς και σύγχρονους optimizers επειδή προσαρμόζει το learning rate και συγκλίνει γρηγορότερα από τον απλό Gradient Descent."
+  },
+  {
+    "question": "Τα Convolutional Neural Networks (CNNs) είναι εξειδικευμένα για την επεξεργασία δεδομένων που έχουν μορφή πλέγματος, όπως οι εικόνες.",
+    "answer": true,
+    "chapter_number": 6
+  },
+  {
+    "question": "Τα BERT και GPT είναι μοντέλα που βασίζονται στην αρχιτεκτονική των Recurrent Neural Networks (RNNs).",
+    "answer": false,
+    "chapter_number": 6,
+    "right_answer": "Τα μοντέλα BERT και GPT βασίζονται στην αρχιτεκτονική των Transformers και στον μηχανισμό Self-Attention, όχι στα RNNs."
+  },
+  {
+    "question": "Τα Recurrent Neural Networks (RNNs) είναι κατάλληλα για την επεξεργασία ακολουθιακών δεδομένων, όπως κείμενο ή χρονοσειρές.",
+    "answer": true,
+    "chapter_number": 6
+  },
+  {
+    "question": "Η συνάρτηση ενεργοποίησης 'ReLU' (Rectified Linear Unit) επιστρέφει πάντα τιμές μεταξύ 0 και 1, παρόμοια με την Sigmoid.",
+    "answer": false,
+    "chapter_number": 6,
+    "right_answer": "Η ReLU επιστρέφει την τιμή εισόδου αν είναι θετική και 0 αν είναι αρνητική, επομένως μπορεί να πάρει τιμές από 0 έως άπειρο."
+  },
+  {
+    "question": "Τα 'LSTM' (Long Short-Term Memory) δίκτυα σχεδιάστηκαν για να λύσουν το πρόβλημα της μνήμης στα CNNs.",
+    "answer": false,
+    "chapter_number": 6,
+    "right_answer": "Τα LSTM σχεδιάστηκαν για να λύσουν το πρόβλημα της εξαφάνισης της κλίσης (vanishing gradient) στα RNNs, όχι στα CNNs."
+  },
+  {
+    "question": "Το 'Epoch' στην εκπαίδευση νευρωνικών δικτύων αναφέρεται στο χρονικό διάστημα ενός δευτερολέπτου εκπαίδευσης.",
+    "answer": false,
+    "chapter_number": 6,
+    "right_answer": "Μια Epoch ολοκληρώνεται όταν ολόκληρο το σύνολο δεδομένων εκπαίδευσης έχει περάσει μέσα από το δίκτυο μία φορά (forward και backward)."
+  },
+  {
+    "question": "Το 'Dropout' είναι μια τεχνική κανονικοποίησης (regularization) όπου τυχαίοι νευρώνες απενεργοποιούνται κατά την εκπαίδευση για την αποφυγή υπερπροσαρμογής (overfitting).",
+    "answer": true,
+    "chapter_number": 6
+  },
+  {
+    "question": "Τα Τεχνητά Νευρωνικά Δίκτυα (ANNs) αποτελούνται από τεχνητούς νευρώνες που οργανώνονται σε επίπεδα (layers): εισόδου, κρυφά και εξόδου.",
+    "answer": true,
+    "chapter_number": 6
+  },
+  {
+    "question": "Το 'Gradient Descent' είναι ένας αλγόριθμος βελτιστοποίησης που χρησιμοποιείται για την ελαχιστοποίηση της συνάρτησης κόστους (loss function).",
+    "answer": true,
+    "chapter_number": 6
+  },
+  {
+    "question": "Ο αλγόριθμος 'Backpropagation' χρησιμοποιείται για τον υπολογισμό των σφαλμάτων και την ενημέρωση των βαρών του δικτύου προς τα πίσω.",
+    "answer": true,
+    "chapter_number": 6
+  },
+  {
+    "question": "Η 'Συνάρτηση Ενεργοποίησης' (Activation Function) καθορίζει αν ένας νευρώνας θα ενεργοποιηθεί, εισάγοντας μη γραμμικότητα στο δίκτυο.",
+    "answer": true,
+    "chapter_number": 6
+  },
+  {
+    "question": "Το 'Batch Normalization' είναι μια τεχνική που βελτιώνει την ταχύτητα και τη σταθερότητα της εκπαίδευσης κανονικοποιώντας τις εισόδους σε κάθε επίπεδο.",
+    "answer": true,
+    "chapter_number": 6
+  }
+]
